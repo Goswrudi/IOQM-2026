@@ -23,3 +23,23 @@ for items in sat:
         seen.add(items)
 
 print(list(duplicates))
+
+
+
+'''
+Problem 2 — Common Students
+
+Two classes have these roll numbers:
+
+A = [1,2,3,4,5,6]
+B = [4,5,6,7,8]
+
+Find:
+
+Common students
+Students only in A
+Students only in B
+
+You can use Python's set for this one.
+
+'''
