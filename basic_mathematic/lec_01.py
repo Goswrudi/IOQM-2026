@@ -57,3 +57,31 @@ onlyB = set_B.intersection(set_A)
 print(f'common numbers are {common_numbers}')
 print(f'studnts only in A are {set_A}')
 print(f'students only in B are {set_B}')
+
+
+'''
+🟡 Problem 3 — Guess the Set
+
+Write a function:
+
+def classify(A, B):
+    ...
+
+It should print whether:
+
+A is a subset of B
+B is a subset of A
+They are equal
+They are disjoint
+None of the above
+
+Example:
+
+A={1,2}
+
+B={1,2,3}
+
+Output
+
+A is subset of B
+'''
