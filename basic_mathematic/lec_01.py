@@ -11,3 +11,15 @@ Input
 
 '''
 
+sat = [5, 3, 5, 2, 3, 8, 8, 1]
+
+seen = set()
+duplicates = set()
+
+for items in sat:
+    if items in seen:
+        duplicates.add(items)
+    else:
+        seen.add(items)
+
+print(list(duplicates))
