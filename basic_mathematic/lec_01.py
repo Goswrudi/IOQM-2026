@@ -43,3 +43,17 @@ Students only in B
 You can use Python's set for this one.
 
 '''
+
+A = [1,2,3,4,5,6]
+B = [4,5,6,7,8]
+
+set_A = set(A)
+set_B = set(B)
+
+common_numbers = set_A.intersection(set_B)
+onlyA = set_A.intersection(set_B)
+onlyB = set_B.intersection(set_A)
+
+print(f'common numbers are {common_numbers}')
+print(f'studnts only in A are {set_A}')
+print(f'students only in B are {set_B}')
