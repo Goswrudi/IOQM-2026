@@ -104,5 +104,16 @@ combined_D = ",".join([str(D), str(y)])
 print(combined_C)  
 print(combined_D)  
 
+# Creating the function for classification 
+
 def classify():
-    None
+    set_C = set(combined_C)
+    set_D = set(combined_D)
+
+    # Internal Problem : 
+    # After trying sevral methods of flow control the program is unable to tell the computer what is left side what is right side!! which is important if i want to guess the subest!!
+
+    
+
+
+classify()
