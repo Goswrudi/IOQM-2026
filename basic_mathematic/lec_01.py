@@ -85,3 +85,17 @@ Output
 
 A is subset of B
 '''
+
+import random
+list_C = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+list_D = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10) 
+
+C = random.randint(1 , 10 )
+D = random.randint(1, 10)
+
+x = random.choice(list_C )
+y = random.choice(list_D )
+
+print(f'{C},{x}')
+print(f'{D},{y}')
+
