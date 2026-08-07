@@ -26,7 +26,7 @@ count = nums.count
 
 for num in nums:
     if num in freq:
-        freq[num] = +1
+        freq[num] += 1
     else:
         freq[num] = 1
 
@@ -55,3 +55,12 @@ that returns one of:
 
 Notice "Intersecting" is new—it means they share some elements but none of the other relationships apply.
 '''
+
+def relationships(A , B):
+    if(nums == value):
+        print(f'both {nums} and {value} are equal ')
+    else:
+        print(f'both {nums} and {value} are not equal')
+
+relationships()
+
