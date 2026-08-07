@@ -127,18 +127,31 @@ A is subset of B
 
 # Solving these problems with new method !!
 
-# Pass the sets as arguments so the function is reusable
+# Problem 1 , 2 , 3 , 4, 5 : 
+
 def classify(a_set, b_set):
-    if a_set.issubset(b_set):
+    if a_set == b_set:
+        print('Both Are Equal !! ')
+
+
+    elif a_set.issubset(b_set):
         print(f"The set {a_set} is a subset of {b_set}")
+
 
     elif b_set.issubset(a_set):
         print(f"The set {b_set} is a subset of {a_set}")
+
+
+    elif a_set.isdisjoint(b_set):
+        print(f'The {a_set} disjoint the {b_set}')
 
     else:
         print("Neither set is a subset of the other")
 
 # Example usage:
+
 A_set = {1, 2}
 B_set = {1, 2, 3, 4}
 classify(A_set, B_set)
+
+
