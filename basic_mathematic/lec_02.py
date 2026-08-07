@@ -18,3 +18,20 @@ Print:
 Challenge: Don't use collections.Counter.
 
 '''
+
+nums = [2,1,2,3,1,4,2,5,3]
+freq = {}
+
+count = nums.count
+
+for num in nums:
+    if num in freq:
+        freq[num] = +1
+    else:
+        freq[num] = 1
+
+for key, value in freq.items():
+    if value == 1:
+        print(f"{key} -> {value} time")
+    else:
+        print(f"{key} -> {value} times")
