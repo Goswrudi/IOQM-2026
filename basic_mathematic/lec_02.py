@@ -35,3 +35,23 @@ for key, value in freq.items():
         print(f"{key} -> {value} time")
     else:
         print(f"{key} -> {value} times")
+
+
+
+'''
+🟢 Problem 2 — Set Relationship Checker
+
+Write a function:
+
+relationship(A, B)
+
+that returns one of:
+
+"Equal"
+"Subset"
+"Superset"
+"Disjoint"
+"Intersecting"
+
+Notice "Intersecting" is new—it means they share some elements but none of the other relationships apply.
+'''
