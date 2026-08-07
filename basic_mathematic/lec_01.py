@@ -133,5 +133,8 @@ def classify(A , B):
     if A_set.issubset(B_set):
         print(f'The {A_set} Subets {B_set}')
 
-    elif():
-        None
+    elif B_set.issubset(A_set):
+        print(f'The {B_set} Subets {A_set}')
+
+    else:
+        print('None of them subsets each other ')
