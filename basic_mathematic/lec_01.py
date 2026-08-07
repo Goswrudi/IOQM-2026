@@ -86,41 +86,52 @@ Output
 A is subset of B
 '''
 
-import random
+# import random
 
-list_C = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-list_D = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10) 
+# list_C = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+# list_D = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10) 
 
-C = random.randint(1 , 10)
-D = random.randint(1, 10)
+# C = random.randint(1 , 10)
+# D = random.randint(1, 10)
 
-x = random.choice(list_C)
-y = random.choice(list_D)
+# x = random.choice(list_C)
+# y = random.choice(list_D)
 
-#  Convert the numbers to strings, put them in a list, and join with a comma
-combined_C = ",".join([str(C), str(x)])
-combined_D = ",".join([str(D), str(y)])
+# #  Convert the numbers to strings, put them in a list, and join with a comma
+# combined_C = ",".join([str(C), str(x)])
+# combined_D = ",".join([str(D), str(y)])
 
-print(combined_C)  
-print(combined_D)  
+# print(combined_C)  
+# print(combined_D)  
 
-# Creating the function for classification 
+# # Creating the function for classification 
 
-def classify():
-    set_C = set(combined_C)
-    set_D = set(combined_D)
+# def classify():
+#     set_C = set(combined_C)
+#     set_D = set(combined_D)
 
-    # Internal Problem : 
-    # After trying sevral methods of flow control the program is unable to tell the computer what is left side what is right side!! which is important if i want to guess the subest!!
+#     # Internal Problem : 
+#     # After trying sevral methods of flow control the program is unable to tell the computer what is left side what is right side!! which is important if i want to guess the subest!!
 
-    # May this method will work 
+#     # May this method will work 
 
-    x , y = set_C
-    w , z = set_D
+#     x , y = set_C
+#     w , z = set_D
 
-    print("The computer knows x is:", x) 
-    print("The computer knows y is:", y)
-    print("The computer knows w is:", w) 
-    print("The computer knows z is:", z)
+#     print("The computer knows x is:", x) 
+#     print("The computer knows y is:", y)
+#     print("The computer knows w is:", w) 
+#     print("The computer knows z is:", z)
      
-classify()
+# classify()
+
+# Solving these problems with new method !!
+A_set ={1,2}
+B_set ={1,2,3}
+
+def classify(A , B):
+    if A_set.issubset(B_set):
+        print(f'The {A_set} Subets {B_set}')
+
+    elif():
+        None
