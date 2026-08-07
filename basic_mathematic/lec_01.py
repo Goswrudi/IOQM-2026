@@ -113,7 +113,14 @@ def classify():
     # Internal Problem : 
     # After trying sevral methods of flow control the program is unable to tell the computer what is left side what is right side!! which is important if i want to guess the subest!!
 
-    
+    # May this method will work 
 
+    x , y = set_C
+    w , z = set_D
 
+    print("The computer knows x is:", x) 
+    print("The computer knows y is:", y)
+    print("The computer knows w is:", w) 
+    print("The computer knows z is:", z)
+     
 classify()
