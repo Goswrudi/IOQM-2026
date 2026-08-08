@@ -88,6 +88,14 @@ Modify your program so that it works for any equation:
 ax+by=c
 '''
 
+count = 0
 
-# for e in range(1 , 30):
-#     pass
+for i in range(0 , 30):
+    j = (30 - 5 * i) / 3
+    if j >= 0 and j.is_integer():
+        print(f'Solutions are : x=({j}) , y = {i})')
+        count += 1
+
+print("Number of solutions:", count)
+
+
