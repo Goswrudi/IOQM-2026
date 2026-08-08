@@ -22,10 +22,13 @@ Hint: What values can x take?
 
 # Problem 1
 
-for x in range(21):
-    y = 20 - x
-    if y > 0:
-        print(f'The Solutions are ({x},{y})')
+def prob_1():
+
+    for x in range(21):
+        y = 20 - x
+        if y > 0:
+
+            print(f'The Solutions are ({x},{y})')
 
 # Problem 2
 '''
@@ -56,10 +59,14 @@ means once you choose x, what happens to y?
 print('')
 # Problem 2
 
-for x in range(1, 20):
-    y = (20 - 2*x) / 3
-    if y > 0 and y.is_integer():
-        print(f'solutions are (int{y},{x})')
+def prob_2():
+
+    for i in range(1, 20):
+
+        j = (20 - 2*i) / 3
+        if j > 0 and j.is_integer():
+
+            print(f'solutions are (int{j},{i})')
 
 
 '''
@@ -80,3 +87,7 @@ Modify your program so that it works for any equation:
 
 ax+by=c
 '''
+
+
+# for e in range(1 , 30):
+#     pass
