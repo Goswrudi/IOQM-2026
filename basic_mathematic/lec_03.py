@@ -56,8 +56,8 @@ means once you choose x, what happens to y?
 print('')
 # Problem 2
 
-for x in range(20):
-    y = 20 - 2*x / 3
-    if y > 0:
-        print(f'solutions are ({y},{x})')
+for x in range(1, 20):
+    y = (20 - 2*x) / 3
+    if y > 0 and y.is_integer():
+        print(f'solutions are (int{y},{x})')
     
