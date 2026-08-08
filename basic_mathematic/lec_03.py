@@ -28,3 +28,29 @@ for x in range(21):
         print(f'The Solutions are ({x},{y})')
 
 # Problem 2
+'''
+🟢 Problem 2 — A Slight Upgrade
+
+Find all positive integer solutions of:
+
+2x+3y=20
+
+Your program should print:
+
+x = ?
+y = ?
+
+for every valid solution.
+
+Important:
+
+Don't just brute-force huge numbers.
+
+Think about the fact that:
+
+2x+3y=20
+
+means once you choose x, what happens to y?
+
+'''
+
