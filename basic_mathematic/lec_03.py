@@ -30,6 +30,7 @@ def prob_1():
 
             print(f'The Solutions are ({x},{y})')
 
+prob_1()
 # Problem 2
 '''
 🟢 Problem 2 — A Slight Upgrade
@@ -60,7 +61,6 @@ print('')
 # Problem 2
 
 def prob_2():
-
     for i in range(1, 20):
 
         j = (20 - 2*i) / 3
@@ -68,6 +68,7 @@ def prob_2():
 
             print(f'solutions are (int{j},{i})')
 
+prob_2()
 
 '''
 🟡 Problem 3 — The Classic
@@ -88,14 +89,15 @@ Modify your program so that it works for any equation:
 ax+by=c
 '''
 
-count = 0
+def prob_3():
+    count = 0
+    for i in range(0 , 30):
+        j = (30 - 5 * i) / 3
+        if j >= 0 and j.is_integer():
+            print(f'Solutions are : x=({j}) , y = {i})')
+            count += 1
 
-for i in range(0 , 30):
-    j = (30 - 5 * i) / 3
-    if j >= 0 and j.is_integer():
-        print(f'Solutions are : x=({j}) , y = {i})')
-        count += 1
-
-print("Number of solutions:", count)
+    print("Number of solutions:", count)
 
 
+prob_3()
