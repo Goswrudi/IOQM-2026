@@ -19,3 +19,12 @@ Don't manually write the answers. Make Python search for them.
 
 Hint: What values can x take?
 '''
+
+# Problem 1
+
+for x in range(21):
+    y = 20 - x
+    if y > 0:
+        print(f'The Solutions are ({x},{y})')
+
+# Problem 2
