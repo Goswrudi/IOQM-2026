@@ -60,4 +60,23 @@ for x in range(1, 20):
     y = (20 - 2*x) / 3
     if y > 0 and y.is_integer():
         print(f'solutions are (int{y},{x})')
-    
+
+
+'''
+🟡 Problem 3 — The Classic
+
+Find all non-negative integer solutions of:
+
+3x+5y=30
+
+Your Python program should output every solution.
+
+Then calculate:
+
+Number of solutions = ?
+Bonus 🔥
+
+Modify your program so that it works for any equation:
+
+ax+by=c
+'''
