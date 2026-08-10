@@ -62,3 +62,17 @@ Expected:
 
 Then modify your program so the user can enter a, d, and n.
 '''
+
+a = 7
+d = 4
+n = 10
+
+# Tried in Attempt 1
+
+# solution = a + (n-1) * d
+
+# print(solution)
+
+# for solution in range(n):
+#     solutionx = solution + d
+#     print(solutionx)
