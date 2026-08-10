@@ -76,3 +76,9 @@ n = 10
 # for solution in range(n):
 #     solutionx = solution + d
 #     print(solutionx)
+
+value = a
+
+for i in range(n):
+    print(value)
+    value += d
