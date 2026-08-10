@@ -107,3 +107,43 @@ def prob_2():
 
 
 prob_2()
+
+
+'''
+🟢 Problem 3 — Find the nth Term
+
+Write:
+
+nth_term(a, d, n)
+
+using:
+
+a
+n
+	​
+
+=a+(n−1)d
+
+Example:
+
+nth_term(5, 3, 20)
+
+Output:
+
+62
+🔥 Constraint
+
+Don't generate all 20 terms. Calculate the answer directly.
+
+
+'''
+
+
+def n_term(a, d, n):
+    return a + (n-1) * d
+
+
+n_term(1 , 4 ,  4)
+
+    
+
