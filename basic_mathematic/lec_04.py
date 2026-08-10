@@ -44,3 +44,21 @@ def is_ap(sequence):
     return False
 
 print(is_ap([2, 5, 8, 11, 14]))    
+
+
+
+'''
+🟢 Problem 2 — Generate the AP
+
+Given:
+
+a=7,d=4,n=10
+
+Write a program that generates the first n terms.
+
+Expected:
+
+7 11 15 19 23 27 31 35 39 43
+
+Then modify your program so the user can enter a, d, and n.
+'''
