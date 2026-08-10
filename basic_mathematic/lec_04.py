@@ -3,8 +3,8 @@
 AP: Airthemtical Progression 
 
 '''
-
 # Probelm # 1:
+
 
 '''
 🟢 Level 1 — AP Detector
@@ -46,7 +46,6 @@ def is_ap(sequence):
 print(is_ap([2, 5, 8, 11, 14]))    
 
 
-
 '''
 🟢 Problem 2 — Generate the AP
 
@@ -63,9 +62,12 @@ Expected:
 Then modify your program so the user can enter a, d, and n.
 '''
 
-a = 7
-d = 4
-n = 10
+
+
+def prob_2():
+    a = 7
+    d = 4
+    n = 10
 
 # Tried in Attempt 1
 
@@ -77,8 +79,31 @@ n = 10
 #     solutionx = solution + d
 #     print(solutionx)
 
-value = a
+    value = a
 
-for i in range(n):
-    print(value)
-    value += d
+    for i in range(n):
+        print(value)
+        value += d
+
+    # Solving the 2nd part of the problem ;
+
+
+# Wrap input() inside int() to convert text to integers
+
+
+    a1 = int(input('Enter (a) number: '))
+    d1 = int(input('Enter (d) number: '))
+    nn = int(input('Enter (n) number: '))
+
+# Now you can perform math operations without errors
+    print(f"First term: {a1}, Difference: {d1}, Total terms: {nn}")
+
+    value = a1
+
+    for x in range(nn):
+        
+            print(value)
+            value += d1
+
+
+prob_2()
