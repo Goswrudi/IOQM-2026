@@ -12,4 +12,19 @@
 Find q and r.
 '''
 
+def algo():
+
+    a = int(input(f"Enter dividend: "))
+    b = int(input(f"Enter divisor: "))
+
+    q = a // b
+    r = a % b
+
+    print(f"The quoteint is: {q}")
+    print(f"The remainder is: {r}")
+
+algo()
+
+
+
 
