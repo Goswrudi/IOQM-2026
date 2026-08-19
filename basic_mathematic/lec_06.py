@@ -64,4 +64,14 @@ def manualmod():
 
     print(f"the quoteint is ({d}) , the closest multiple is ({m}) , the mod is ({s}) || ")
 
-manualmod()
+#manualmod()
+
+
+'''
+3. Decide whether each statement is true:
+
+6∣42
+7∣50
+9∣81
+8∣100
+'''
