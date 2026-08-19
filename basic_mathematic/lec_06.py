@@ -31,7 +31,21 @@ algo()
 2. Find:
 
 83mod7
+
 146mod11
+
 250mod13
 
 '''
+
+
+def mod():
+    x = int(input(f"enter the dividend: "))
+    y = int(input(f"enter the divisor: "))
+
+    modulo = x % y 
+
+    print(modulo)
+
+mod()
+
