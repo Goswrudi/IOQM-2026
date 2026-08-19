@@ -23,7 +23,7 @@ def algo():
     print(f"The quoteint is: {q}")
     print(f"The remainder is: {r}")
 
-algo()
+#algo()
 
 
 
@@ -47,5 +47,21 @@ def mod():
 
     print(modulo)
 
-mod()
+#mod()
 
+# There is another way you can find mod manually 
+
+def manualmod():
+    x = int(input(f"enter the dividend: "))
+    y = int(input(f"enter the divisor: "))
+
+    d = x // y
+
+    m = d * y
+
+    s = x - m
+
+
+    print(f"the quoteint is ({d}) , the closest multiple is ({m}) , the mod is ({s}) || ")
+
+manualmod()
