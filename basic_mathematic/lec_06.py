@@ -75,3 +75,17 @@ def manualmod():
 9∣81
 8∣100
 '''
+
+
+def TorF():
+    x = int(input(f"enter the dividend: "))
+    y = int(input(f"enter the divisor: "))
+
+    s = x % y
+
+    if s == 0:
+        print(True)
+    else:
+        print(False)
+
+# TorF()
