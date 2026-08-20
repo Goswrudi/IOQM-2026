@@ -35,4 +35,22 @@ Tiny proof, but VERY important.
 
 
 def show():
-    None
+    quoteint = []
+    remainder = []
+
+    for i in range(2):
+        print(f"---- Input{i+1}")
+        x = int(input('Enter the Dividend '))
+        y = int(input('Enter the Divisor '))
+
+        q = x // y
+        r = x % y 
+
+        quoteint.append(q)
+        remainder.append(r)
+
+    print(f'The quoteint of input 1 is: {quoteint[0]} and the Remainder is: {remainder[0]}')
+    print(f'The quoteint of input 2 is: {quoteint[1]} and the Remainder is: {remainder[1]}')
+ 
+show()
+
