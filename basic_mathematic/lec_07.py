@@ -52,14 +52,15 @@ def show():
     print(f'The quoteint of input 1 is: {quoteint[0]} and the Remainder is: {remainder[0]}')
     print(f'The quoteint of input 2 is: {quoteint[1]} and the Remainder is: {remainder[1]}')
     
+    print(f"\nNow putting quotient in equation given in the question with the following form (7|21 = a and 7|35 = b)")
 
-    print(f"Now putting quoteint and remainder in equation given in the question with the following form(7|21 = a and 7|35 = b)")
     
     a = quoteint[0]
     b = quoteint[1]
 
     eq = 7 * (4 * a - 3 * b)
-    print(eq)
+    print(f"The result of the equation 7 * (4*{a} - 3*{b}) is: {eq}")
+
 
 
 show()
