@@ -5,10 +5,12 @@
 # Here we go automation way first !
 
 
-def gcd(a , b):
+def gcd():
+    a = int(input(f"enter the dividend: "))
+    b = int(input(f"enter the divisor: "))
     while b != 0:
         a , b = b , a % b 
 
     return a
 
-print(gcd(48 , 18))
+print(f"The GCD IS : ({gcd()})")
