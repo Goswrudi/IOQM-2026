@@ -3,3 +3,12 @@
 # we tried to solve this as a automation and manuall way !!!
 
 # Here we go automation way first !
+
+
+def gcd(a , b):
+    while b != 0:
+        a , b = b , a % b 
+
+    return a
+
+print(gcd(48 , 18))
